@@ -24,10 +24,13 @@ Implementation Steps
 Step 1: Header
 Add external social media links using the socials array provided. Utilize the HStack component for horizontal stacking and the FontAwesomeIcon component for icons.
 Add internal navigation links for the Projects and Contact Me sections. Use smooth scrolling for navigation, implementing the pre-defined handleClick function.
+
 Step 2: Landing Section
 Populate the landing section with an avatar, a greeting, and a brief role description. Use the variables (greeting, bio1, bio2) provided for the content and https://i.pravatar.cc/150?img=7 for the avatar image.
+
 Step 3: Projects Section
 Complete the Card component to display project details using Chakra UI components like HStack, VStack, Image, Heading, and Text. Add a right-arrow icon for navigation using FontAwesomeIcon.
+
 Step 4: Contact Me Section
 Configure useFormik for form handling with initialValues, onSubmit, and validationSchema.
 Set up form validation rules using Yup:
@@ -36,6 +39,7 @@ Email: Required and must be valid.
 Comment: Required with a minimum of 25 characters.
 Display validation errors using Chakra UI’s FormErrorMessage.
 Implement submission logic with the provided useSubmit hook, including success/error alerts and form reset.
+
 Step 5: Bonus (Header Animation)
 Add a show/hide animation for the header based on scroll direction. Use useEffect and useRef hooks to listen to scroll events and adjust the transform property of the header's Box element.
 Screenshots
